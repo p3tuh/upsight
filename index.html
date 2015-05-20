@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title>Upsight</title>
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+	<body>	
+		<div id="header">
+			<ul id="user">
+				<li>zombie+1@playhaven.com</li>
+				<li>PlayHaven</li>
+			</ul>
+		</div>
+
+		<div id="container">
+			<div class="sidebar">
+				<div id="logo">
+					UPSIGHT
+				</div>
+				<ul id="nav">
+					<li id="navsections">Reporting</li>
+					<li>Custom Dashboards</li>
+					<li>Campaign Reports </li>
+					<li id="navsections">Marketing</li>
+					<li>Campaigns </li>
+					<li>Campaign Priority </li>
+					<li id="navsections">Exporation</li>
+					<li>User Explorer</li>
+					<li>Datamine</li>
+				</ul>
+				<div id="settings">
+					<ul id="usersettings">
+						<li>Settings</li>
+						<li>Applications</li>
+						<li>Permissions</li>
+						<li>User Profile</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="content">
+				<div id="options"> 
+					<div id="toprow">
+						<div id="dropmenu">
+							<select id="dropmenu" class="form-control">
+							  <option>d</option>
+							  <option>peter</option>
+							  <option>is</option>
+							  <option>awesome</option>
+							  <option>=D</option>
+							</select>
+						</div>
+						<div id="calendar">
+							<div class='input-group date' id='calendar'>
+					          <input type='text' class="form-control" />
+					          <span class="input-group-addon">
+			              <span class="glyphicon glyphicon-calendar"></span>
+			          </span>
+				      </div>
+						</div>
+						<div id="addbutton">
+							<a href="#" id="addchart" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-plus"></span> Add Chart</a>
+						</div>	
+					</div>
+
+					<div id="bottomrow">
+						<div id="filterbutton">
+							<a href="#" id="addfilter" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-plus"></span> ADD FILTER</a>	
+						</div>
+
+						<div id="makedefault">
+							<input type="radio" name="OverallRadioButtons" value="#" /> <label>Make Default</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="flexbox">
+
+					<div class="box">
+						<div class="box-top">test</div>
+						<div class="box-panel"></div>
+					</div>
+
+					<div class="box">
+						<div class="box-top">test 2</div>
+						<div class="box-panel"></div>
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript"> 
+		$(function () {
+			console.log('ick')
+            $('#calendar').datetimepicker();
+        }); 
+	</script>
+</html>
+
+<!-- http://www.upsight.com/wp-content/themes/upsight/images/svg/upsight_logo.svg -->
